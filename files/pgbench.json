@@ -1,0 +1,13 @@
+{
+  "devoptimist/pgbench": {
+    "channel": "stable",
+    "group": "production",
+    "service_action": "load",
+    "bind": ["backend:postgresql.production", "loadbalancer:haproxy.production"],
+    "user_toml_config": {
+      "benchmark_time": 120,
+      "nnumber_of_jobs": 2,
+      "number_of_clients": 10
+    }
+  }
+}

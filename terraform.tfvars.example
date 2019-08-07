@@ -1,0 +1,19 @@
+
+ssh_user_name = "jdoe"
+ssh_user_private_key = "~/.ssh/mycloud.pem"
+# ssh_user_pass = "supersecret"
+
+habproxy_ip = "35.178.124.73"
+pgbench_ip = "35.176.115.167"
+
+postgresql_ssh_ips = [
+  "35.177.100.100",
+  "3.9.12.109",
+  "35.177.40.146",
+]
+
+postgresql_supervisor_ips = [
+  "10.0.1.7",
+  "10.0.1.101",
+  "10.0.1.223",
+]

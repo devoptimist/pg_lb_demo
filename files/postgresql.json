@@ -1,0 +1,8 @@
+{
+  "core/postgresql": {
+    "strategy":"rolling",
+    "topology": "leader",
+    "channel": "stable",
+    "group": "production"
+  }
+}

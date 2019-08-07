@@ -1,0 +1,15 @@
+{
+  "devoptimist/haproxy": {
+    "strategy":"rolling",
+    "topology": "standalone",
+    "channel": "stable",
+    "group": "production",
+    "bind": "backend:postgresql.production",
+    "config": {
+      "front-end": {
+        "mode": "tcp",
+        "port": 5432
+      }
+    }
+  }
+}
